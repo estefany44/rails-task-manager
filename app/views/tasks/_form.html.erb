@@ -1,0 +1,7 @@
+<!-- app/views/tasks/_form.html.erb -->
+<%= simple_form_for(task) do |f| %>
+  <%= f.input :title %>
+  <%= f.input :details %>
+  <%= f.input :complete %>
+  <%= f.submit %>
+<% end %>
